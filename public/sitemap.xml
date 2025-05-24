@@ -17,15 +17,18 @@
     <lastmod>2025-05-25T05:34:51+08:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-05-25T05:34:51+08:00</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-05-25T05:34:51+08:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-05-25T05:34:51+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-05-25T05:34:51+08:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/collections/</loc>
   </url>
 </urlset>

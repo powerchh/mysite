@@ -1,4 +1,53 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "FixIt"
+baseURL = 'https://ones.unfine.top/'
+languageCode = 'zh-cn'
+title = '我的 Hugo 网站'
+theme = 'FixIt'
+
+[params]
+  version = "0.3.X"
+  description = "这是我的 Hugo FixIt 网站"
+  keywords = ["Hugo", "FixIt"]
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+  enablePWA = true
+  externalIcon = false
+  capitalizeTitles = true
+  withSiteTitle = true
+  titleDelimiter = "-"
+  indexWithSubtitle = false
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  collection = "collections"
+
+[outputs]
+  home = ["html", "rss", "archives", "offline", "search"]
+  page = ["html", "markdown"]
+  section = ["html", "rss"]
+  taxonomy = ["html"]
+  term = ["html", "rss"]
