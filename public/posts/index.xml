@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Posts - 我的 Hugo 网站</title>
+    <title>All Posts - 我的 Hugo 网站1.3</title>
     <link>http://localhost:1313/posts/</link>
     <description>这是我的 Hugo FixIt 网站</description>
     <generator>Hugo 0.147.5 &amp; FixIt v0.3.21-a85a6655</generator>
@@ -15,6 +15,14 @@
       <guid>http://localhost:1313/posts/583bc6c/</guid>
       <category domain="http://localhost:1313/categories/draft/">Draft</category>
       <description>My First Post</description>
+    </item>
+    <item>
+      <title>My second Post</title>
+      <link>http://localhost:1313/posts/583bc6c/</link>
+      <pubDate>Sun, 25 May 2025 05:34:51 +0800</pubDate>
+      <guid>http://localhost:1313/posts/583bc6c/</guid>
+      <category domain="http://localhost:1313/categories/draft/">Draft</category>
+      <description>My second Post</description>
     </item>
   </channel>
 </rss>
