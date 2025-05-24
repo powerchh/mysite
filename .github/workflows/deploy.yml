@@ -1,34 +1,29 @@
+---
 name: Deploy Hugo site to GitHub Pages
-
 on:
   push:
     branches:
-      - main  # 监听main分支的push事件
-
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-
-	- name: Setup Hugo
-    	  uses: peaceiris/actions-hugo@v4
-        with:
-        hugo-version: '0.147.5'
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v4
+        with: null
+        hugo-version: 0.147.5
         extended: true
-
       - name: Build the site
         run: hugo --minify
-
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: github-actions[bot]
+          user_email: github-actions[bot]@users.noreply.github.com
