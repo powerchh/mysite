@@ -1,6 +1,6 @@
 baseURL = 'https://ones.unfine.top/'
 languageCode = 'zh-cn'
-title = '我的 Hugo 网站1.3'
+title = '我的 Hugo 网站1.4'
 theme = 'FixIt'
 
 [params]
