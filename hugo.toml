@@ -45,9 +45,13 @@ theme = 'FixIt'
   tag = "tags"
   collection = "collections"
 
+[outputFormats]
+  [outputFormats.Search]
+    name = "search"
+    mediaType = "application/json"
+    baseName = "index"
+    isPlainText = true
+    notAlternative = true
+
 [outputs]
-  home = ["html", "rss", "archives", "offline", "search"]
-  page = ["html", "markdown"]
-  section = ["html", "rss"]
-  taxonomy = ["html"]
-  term = ["html", "rss"]
+  home = ["HTML", "Search"]
