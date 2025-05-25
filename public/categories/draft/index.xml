@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Draft - Category - 我的 Hugo 网站1.5</title>
+    <title>Draft - Category - 我的 Hugo 网站1.6</title>
     <link>http://localhost:1313/categories/draft/</link>
     <description>这是我的 Hugo FixIt 网站</description>
     <generator>Hugo 0.147.5 &amp; FixIt v0.3.21-a85a6655</generator>
