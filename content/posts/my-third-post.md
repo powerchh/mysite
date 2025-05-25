@@ -1,8 +1,8 @@
 ---
-title: My third Post
+title: My Third Post
 subtitle:
-date: 2025-05-25T05:34:51+08:00
-slug: 583bc6c
+date: 2025-05-26T00:23:20+08:00
+slug: 3072af2
 draft: false
 author:
   name:
@@ -39,5 +39,16 @@ repost:
 
 # See details front matter: https://fixit.lruihao.cn/documentation/content-management/introduction/#front-matter
 ---
+---
+title: "我的第3篇文章"
+date: 2025-05-26T12:00:00+08:00
+draft: false
+---
+
+欢迎使用 Hugo！这是我的第一篇博客文章。
+
+## 二级标题示例
+
+支持 Markdown 语法。
 
 <!--more-->
