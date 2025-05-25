@@ -29,8 +29,11 @@ jobs:
             ${{ runner.os }}-hugo-
 
       - name: Build site
-        run: hugo --minify
-
+        run: |
+          hugo mod get
+          hugo --minify
+          ls -la ./public  
+          
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
