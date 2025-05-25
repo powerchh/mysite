@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 我的 Hugo 网站1.3</title>
+    <title>Tags on 我的 Hugo 网站1.5</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on 我的 Hugo 网站1.3</description>
+    <description>Recent content in Tags on 我的 Hugo 网站1.5</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 25 May 2025 05:34:51 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 26 May 2025 00:23:20 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Draft</title>
       <link>http://localhost:1313/tags/draft/</link>
-      <pubDate>Sun, 25 May 2025 05:34:51 +0800</pubDate>
+      <pubDate>Mon, 26 May 2025 00:23:20 +0800</pubDate>
       <guid>http://localhost:1313/tags/draft/</guid>
       <description></description>
     </item>

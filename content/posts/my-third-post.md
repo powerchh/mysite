@@ -3,7 +3,6 @@ title: My Third Post
 subtitle:
 date: 2025-05-26T00:23:20+08:00
 slug: 3072af2
-draft: false
 author:
   name:
   link:
