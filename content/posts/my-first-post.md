@@ -1,5 +1,5 @@
 ---
-title: My First Post1.1
+title: My First Post1
 subtitle: 
 date: 2025-05-25T05:34:51+08:00
 slug: "1"
