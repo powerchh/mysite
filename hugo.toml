@@ -7,6 +7,9 @@ theme = 'FixIt'
 [pagination]
 pagerSize = 10
 
+[markup.goldmark.renderer]
+unsafe = true
+
 
 [params]
   version = "0.3.X"
