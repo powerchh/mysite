@@ -39,7 +39,7 @@ repost:
 # 🌄 马克飞象的奇幻漂流：多媒体写作指南
 
 ![高山湖泊封面](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=70)
-*▲ 图1：瑞士高山湖泊实景（Unsplash来源）*
+*▲ 图1：n瑞士高山湖泊实景（Unsplash来源）*
 
 ## 一、核心语法速查
 
