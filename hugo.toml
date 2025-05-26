@@ -3,6 +3,11 @@ languageCode = 'zh-cn'
 title = 'The ONES1.1'
 theme = 'FixIt'
 
+
+[pagination]
+pagerSize = 10
+
+
 [params]
   version = "0.3.X"
   description = "这是我的 Hugo FixIt 网站"
@@ -35,10 +40,15 @@ theme = 'FixIt'
     
 [params.footer]
 enable = true
+copyright = false          # 不显示默认版权结构
+author = false             # 不显示作者信息
+customText = "© 2025 The ONES. All rights reserved."
+since = "2025"
 
-# 不显示 Powered by Hugo
 [params.footer.powered]
 enable = false
+hugoLogo = false
+themeLogo = false
 
 # ✅ 显示版权年
 copyright = true
