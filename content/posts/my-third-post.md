@@ -1,8 +1,8 @@
 ---
 title: My Third Post1
 subtitle: 
-date: 2025-05-26T00:23:20+08:00
-slug: "4"
+date: 2025-05-25T05:34:53+08:00
+slug: "3"
 author:
   name: 
   link: 
@@ -14,9 +14,9 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - 收藏贴
 categories:
-  - draft
+  - 旅游
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
@@ -38,7 +38,7 @@ repost:
 ---
 # 🌄 马克飞象的奇幻漂流：多媒体写作指南
 
-![高山湖泊封面](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)
+![高山湖泊封面](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=70)
 *▲ 图1：瑞士高山湖泊实景（Unsplash来源）*
 
 ## 一、核心语法速查
@@ -48,7 +48,7 @@ repost:
 - *优雅斜体*：`*斜体*` 或 `_斜体_`
 - ~~过时内容~~：`~~删除线~~`
 - `行内代码`：`` `代码` ``
-
+<!--more-->
 ### 1.2 列表系统
 ```markdown
 - [x] 任务列表

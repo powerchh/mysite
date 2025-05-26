@@ -1,8 +1,8 @@
 ---
 title: My second Post1
 subtitle: 
-date: 2025-05-26T00:23:20+08:00
-slug: "3"
+date: 2025-05-25T05:34:52+08:00
+slug: "2"
 author:
   name: 
   link: 
@@ -13,10 +13,9 @@ keywords:
 license: 
 comment: false
 weight: 0
-tags:
-  - draft
+tags: 
 categories:
-  - draft
+  - 工作
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
@@ -40,6 +39,30 @@ date: 2025-05-26T12:00:00+08:00
 
 ## 二级标题示例
 
-支持 Markdown 语法。
+# 支持 Markdown 语法。
+
+
+你好
+
+
+> [!可以] 标题
+> 这是内容
+
+|     |     |     |
+| --- | --- | --- |
+| d   | e   |     |
+| a   | c   |     |
+|     |     |     |
+
+---
+```
+a=1
+b=a
+c=5
+```
+
+
 
 <!--more-->
+
+

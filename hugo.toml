@@ -23,6 +23,9 @@ unsafe = true
   withSiteTitle = true
   titleDelimiter = "-"
   indexWithSubtitle = false
+[params.page]
+summary = true
+summaryLength = 80
 
 [menu]
   [[menu.main]]

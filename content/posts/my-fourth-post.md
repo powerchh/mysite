@@ -1,8 +1,8 @@
 ---
 title: My Fourth Post
 subtitle: 
-date: 2025-05-25T05:34:51+08:00
-slug: "2"
+date: 2025-05-25T05:34:54+08:00
+slug: "4"
 draft: false
 author:
   name: 
@@ -15,9 +15,9 @@ license:
 comment: false
 weight: 0
 tags:
-  - draft
+  - 高分
 categories:
-  - draft
+  - 技术类
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRelated: false
