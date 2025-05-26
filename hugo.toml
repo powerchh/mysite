@@ -41,7 +41,6 @@ pagerSize = 10
 [params.footer]
 enable = true
 copyright = false          # 不显示默认版权结构
-author = false             # 不显示作者信息
 customText = "© 2025 The ONES. All rights reserved."
 since = "2025"
 
@@ -49,10 +48,6 @@ since = "2025"
 enable = false
 hugoLogo = false
 themeLogo = false
-
-# ✅ 显示版权年
-copyright = true
-
 # ✅ 自定义作者信息（显示在“© 2025 作者名”中）
 [params.author]
 name = "Powered by ONES"
