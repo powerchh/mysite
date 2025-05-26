@@ -37,6 +37,10 @@ repost:
   enable: true
   url:
 ---
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" 
+alt="嵌入图" width="30"/>
 
 <!--more-->
 ##第一
