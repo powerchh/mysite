@@ -32,6 +32,10 @@ theme = 'FixIt'
     name = "分类"
     url = "/categories/"
     weight = 3
+    
+[params.footer]
+enable = true
+customText = "© 2025 ones.unifine.top"
 
 [markup]
   [markup.highlight]
