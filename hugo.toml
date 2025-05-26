@@ -40,7 +40,7 @@ pagerSize = 10
     
 [params.footer]
 enable = true
-copyright = false          # 不显示默认版权结构
+copyright = true          # 不显示默认版权结构
 customText = "© 2025 The ONES. All rights reserved."
 since = "2025"
 
@@ -50,7 +50,7 @@ hugoLogo = false
 themeLogo = false
 # ✅ 自定义作者信息（显示在“© 2025 作者名”中）
 [params.author]
-name = "Powered by ONES"
+name = "The ONES. All rights reserved."
 link = "https://ones.unifine.top"
 
 
