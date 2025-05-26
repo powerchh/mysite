@@ -35,8 +35,21 @@ theme = 'FixIt'
     
 [params.footer]
 enable = true
-hugo = false
-customText = "© 2025 ones.unifine.top"
+
+# 不显示 Powered by Hugo
+[params.footer.powered]
+enable = false
+
+# ✅ 显示版权年
+copyright = true
+
+# ✅ 自定义作者信息（显示在“© 2025 作者名”中）
+[params.author]
+name = "ONES"
+link = "https://ones.unifine.top"
+
+
+
 
 [markup]
   [markup.highlight]
