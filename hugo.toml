@@ -35,6 +35,7 @@ theme = 'FixIt'
     
 [params.footer]
 enable = true
+hugo = false
 customText = "© 2025 ones.unifine.top"
 
 [markup]
