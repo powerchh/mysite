@@ -45,7 +45,7 @@ copyright = true
 
 # ✅ 自定义作者信息（显示在“© 2025 作者名”中）
 [params.author]
-name = "ONES"
+name = "Powered by ONES"
 link = "https://ones.unifine.top"
 
 
