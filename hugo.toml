@@ -3,6 +3,11 @@ languageCode = "zh-cn"                         # 语言设为中文
 title = "The ONES"                             # 网站标题
 theme = "FixIt"                                # 使用 FixIt 主题
 
+[permalinks]
+  posts = "/:slug/"       # 或 "/blog/:slug/" 如果你希望路径带 blog 前缀
+  projects = "/project/:slug/"
+
+
 # 分页设置
 [pagination]
   pagerSize = 10                               # 每页文章数量
