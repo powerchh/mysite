@@ -1,67 +1,72 @@
-baseURL = 'https://ones.unfine.top/'
-languageCode = 'zh-cn'
-title = 'The ONES'
-theme = 'FixIt'
+baseURL = "https://ones.unfine.top/"           # 网站根地址，必须以 / 结尾
+languageCode = "zh-cn"                         # 语言设为中文
+title = "The ONES"                             # 网站标题
+theme = "FixIt"                                # 使用 FixIt 主题
 
-
+# 分页设置
 [pagination]
-pagerSize = 10
+  pagerSize = 10                               # 每页文章数量
 
+# Goldmark 渲染器设置（允许使用 raw HTML）
 [markup.goldmark.renderer]
-unsafe = true
+  unsafe = true
 
-
+# FixIt 主题参数
 [params]
-  version = "0.3.X"
-  description = "这是我的 Hugo FixIt 网站"
-  keywords = ["Hugo", "FixIt"]
-  defaultTheme = "auto"
-  dateFormat = "2006-01-02"
-  enablePWA = true
-  externalIcon = false
-  capitalizeTitles = true
-  withSiteTitle = true
-  titleDelimiter = "-"
-  indexWithSubtitle = false
-[params.page]
-summary = true
-summaryLength = 80
+  version = "0.3.X"                             # FixIt 主题版本（可选）
+  description = "这是我的 Hugo FixIt 网站"         # 网站描述
+  keywords = ["Hugo", "FixIt"]                  # SEO 关键词
+  defaultTheme = "auto"                         # 默认主题（light, dark, auto）
+  dateFormat = "2006-01-02"                     # 日期格式
+  enablePWA = true                              # 是否启用 PWA
+  externalIcon = false                          # 外链是否显示图标
+  capitalizeTitles = true                       # 是否大写标题的每个单词
+  withSiteTitle = true                          # 页面标题中是否包含网站名
+  titleDelimiter = "-"                          # 页面标题分隔符
+  indexWithSubtitle = false                     # 是否在首页文章列表中显示副标题
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "文章"
-    url = "/posts/"
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    name = "标签"
-    url = "/tags/"
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    name = "分类"
-    url = "/categories/"
-    weight = 3
-    
-[params.footer]
-enable = true
-copyright = true          # 不显示默认版权结构
-customText = "© 2025 The ONES. All rights reserved."
-since = "2025"
+  # 搜索功能设置
+  [params.search]
+    enable = true                               # 启用搜索
+    type = "fuse"                               # 使用 Fuse.js 离线搜索
 
-[params.footer.powered]
-enable = false
-hugoLogo = false
-themeLogo = false
-# ✅ 自定义作者信息（显示在“© 2025 作者名”中）
-[params.author]
-name = "The ONES. All rights reserved."
-link = "https://ones.unifine.top"
+    # Fuse.js 配置参数
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
 
 
+  # 页面摘要设置
+  [params.page]
+    summary = true                              # 是否显示摘要
+    summaryLength = 80                          # 摘要最大长度（字数）
 
+  # 页脚设置
+  [params.footer]
+    enable = true                               # 显示页脚
+    copyright = true                            # 是否显示版权信息
+    customText = "© 2025 The ONES. All rights reserved."
+    since = "2025"                              # 网站起始年份
 
+  # 页脚 powered by 设置
+  [params.footer.powered]
+    enable = false                              # 是否显示 powered by
+    hugoLogo = false                            # 是否显示 Hugo Logo
+    themeLogo = false                           # 是否显示主题 Logo
+
+  # 作者信息设置（页脚显示）
+  [params.author]
+    name = "The ONES. All rights reserved."
+    link = "https://ones.unifine.top"
+
+# 代码高亮设置
 [markup]
   [markup.highlight]
     codeFences = true
@@ -69,18 +74,41 @@ link = "https://ones.unifine.top"
     lineNumbersInTable = true
     noClasses = false
 
+# 分类和标签设置
 [taxonomies]
   category = "categories"
   tag = "tags"
   collection = "collections"
 
+# 自定义导航菜单（顶部）
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+
+# 自定义输出格式，添加 search 输出（生成 index.json）
 [outputFormats]
   [outputFormats.Search]
-    name = "search"
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
+    name = "search"                              # 名称
+    mediaType = "application/json"               # MIME 类型
+    baseName = "index"                           # 输出文件名为 index.json
+    isPlainText = true                           # 是否为纯文本
+    notAlternative = true                        # 非替代格式
 
+# 定义主页输出哪些格式
 [outputs]
-  home = ["HTML", "Search"]
+  home = ["html", "rss", "archives", "offline", "search"]
