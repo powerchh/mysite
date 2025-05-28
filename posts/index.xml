@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All Posts - The ONES</title><link>https://ones.unfine.top/posts/</link><description>这是我的 Hugo FixIt 网站</description><generator>Hugo 0.147.5 &amp; FixIt v0.3.21-a85a6655</generator><language>zh-cn</language><lastBuildDate>Sun, 25 May 2025 05:34:54 +0800</lastBuildDate><atom:link href="https://ones.unfine.top/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>My Fifth Post</title><link>https://ones.unfine.top/5/</link><pubDate>Sun, 25 May 2025 05:34:54 +0800</pubDate><guid>https://ones.unfine.top/5/</guid><category domain="https://ones.unfine.top/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/">技术类</category><description>My Fifth Post</description></item><item><title>My Fourth Post</title><link>https://ones.unfine.top/4/</link><pubDate>Sun, 25 May 2025 05:34:54 +0800</pubDate><guid>https://ones.unfine.top/4/</guid><category domain="https://ones.unfine.top/categories/%E6%8A%80%E6%9C%AF%E7%B1%BB/">技术类</category><description>My Fourth Post</description></item><item><title>My Third Post1</title><link>https://ones.unfine.top/3/</link><pubDate>Sun, 25 May 2025 05:34:53 +0800</pubDate><guid>https://ones.unfine.top/3/</guid><category domain="https://ones.unfine.top/categories/%E6%97%85%E6%B8%B8/">旅游</category><description>&lt;h2 class="heading-element" id="-马克飞象的奇幻漂流多媒体写作指南">&lt;span>🌄 马克飞象的奇幻漂流：多媒体写作指南&lt;/span>
+ &lt;a href="#-%e9%a9%ac%e5%85%8b%e9%a3%9e%e8%b1%a1%e7%9a%84%e5%a5%87%e5%b9%bb%e6%bc%82%e6%b5%81%e5%a4%9a%e5%aa%92%e4%bd%93%e5%86%99%e4%bd%9c%e6%8c%87%e5%8d%97" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>&lt;img loading="lazy" src='https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=70' alt="高山湖泊封面">
+&lt;em>▲ 图1：瑞士高山湖泊实景（Unsplash来源）&lt;/em>&lt;/p>
+&lt;h2 class="heading-element" id="一核心语法速查">&lt;span>一、核心语法速查&lt;/span>
+ &lt;a href="#%e4%b8%80%e6%a0%b8%e5%bf%83%e8%af%ad%e6%b3%95%e9%80%9f%e6%9f%a5" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;h3 class="heading-element" id="11-文字特效">&lt;span>1.1 文字特效&lt;/span>
+ &lt;a href="#11-%e6%96%87%e5%ad%97%e7%89%b9%e6%95%88" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>重点强调&lt;/strong>：&lt;code>**粗体**&lt;/code> 或 &lt;code>__粗体__&lt;/code>&lt;/li>
+&lt;li>&lt;em>优雅斜体&lt;/em>：&lt;code>*斜体*&lt;/code> 或 &lt;code>_斜体_&lt;/code>&lt;/li>
+&lt;li>&lt;del>过时内容&lt;/del>：&lt;code>~~删除线~~&lt;/code>&lt;/li>
+&lt;li>&lt;code>行内代码&lt;/code>：&lt;code>`代码`&lt;/code>&lt;/li>
+&lt;/ul></description></item><item><title>My second Post1</title><link>https://ones.unfine.top/2/</link><pubDate>Sun, 25 May 2025 05:34:52 +0800</pubDate><guid>https://ones.unfine.top/2/</guid><category domain="https://ones.unfine.top/categories/%E5%B7%A5%E4%BD%9C/">工作</category><description>&lt;h2 class="heading-element" id="欢迎使用-hugo这是我的一篇博客文章">&lt;span>欢迎使用 Hugo！这是我的一篇博客文章。&lt;/span>
+ &lt;a href="#%e6%ac%a2%e8%bf%8e%e4%bd%bf%e7%94%a8-hugo%e8%bf%99%e6%98%af%e6%88%91%e7%9a%84%e4%b8%80%e7%af%87%e5%8d%9a%e5%ae%a2%e6%96%87%e7%ab%a0" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;h2 class="heading-element" id="二级标题示例">&lt;span>二级标题示例&lt;/span>
+ &lt;a href="#%e4%ba%8c%e7%ba%a7%e6%a0%87%e9%a2%98%e7%a4%ba%e4%be%8b" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;h2 class="heading-element" id="支持-markdown-语法">&lt;span>支持 Markdown 语法。&lt;/span>
+ &lt;a href="#%e6%94%af%e6%8c%81-markdown-%e8%af%ad%e6%b3%95" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>你好&lt;/p>
+&lt;blockquote>
+&lt;p>[!可以] 标题
+这是内容&lt;/p>&lt;/blockquote>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>d&lt;/td>
+ &lt;td>e&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>a&lt;/td>
+ &lt;td>c&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;pre tabindex="0">&lt;code>a=1
+b=a
+c=5&lt;/code>&lt;/pre></description></item><item><title>My First Post1</title><link>https://ones.unfine.top/1/</link><pubDate>Sun, 25 May 2025 05:34:51 +0800</pubDate><guid>https://ones.unfine.top/1/</guid><category domain="https://ones.unfine.top/categories/%E9%9A%8F%E6%96%87/">随文</category><description>&lt;p>&lt;img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" 
+alt="嵌入图" width="30"/>&lt;/p></description></item></channel></rss>
