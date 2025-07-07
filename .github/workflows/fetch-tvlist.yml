@@ -18,7 +18,7 @@ jobs:
 
       - name: 抓取接口内容
         run: |
-          curl -s https://render-node-demo-6ijt.onrender.com/api/tvlist -o static/tv/tvlist.txt
+          curl -s https://render-node-demo-6ijt.onrender.com/api/tvlist -o static/tv/tvlistc.txt
 
       - name: 提交更新
         run: |
