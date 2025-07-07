@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>前端调用后端接口示例</title>
+</head>
+<body>
+  <h1>接口结果：</h1>
+  <pre id="output">加载中...</pre>
+
+  <script>
+    fetch('https://render-node-demo-6ijt.onrender.com/api/tvlist')
+      .then(res => res.text())  // 或 .json() 看后端返回格式
+      .then(text => {
+        document.getElementById('output').textContent = text;
+      })
+      .catch(err => {
+        document.getElementById('output').textContent = '请求失败: ' + err;
+        console.error('请求失败:', err);
+      });
+  </script>
+</body>
+</html>
