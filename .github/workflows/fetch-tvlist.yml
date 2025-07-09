@@ -2,8 +2,8 @@ name: Fetch TV List to /static/tv
 
 on:
   schedule:
-    - cron: '0 1 * * *'     # 每天 01:00 UTC（北京时间 09:00）自动执行
-  workflow_dispatch:        # 可手动执行
+    - cron: '0 1 * * *'     # 每天 01:00 UTC（北京时间 09:00）
+  workflow_dispatch:        # 可手动触发
 
 jobs:
   fetch_and_save:
@@ -12,8 +12,10 @@ jobs:
     steps:
       - name: 拉取仓库
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0    # 确保拉取完整历史记录
 
-      - name: 创建 static/tv 目录（如不存在）
+      - name: 创建目录（如不存在）
         run: mkdir -p static/tv
 
       - name: 抓取接口内容
@@ -22,11 +24,16 @@ jobs:
 
       - name: 提交更新
         run: |
+          # 配置 Git 身份
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git pull --rebase  # ⭐️ 避免 push 被拒绝
-
-          git add static/tv/tvlistc.txt
-          git commit -m "每日更新 tvlist.txt：$(date -u)" || echo "没有变更"
-          git push
+          # 检查文件是否有变化（无变化则跳过提交）
+          if git diff --quiet --exit-code; then
+            echo "文件无变化，无需提交"
+          else
+            git add static/tv/tvlistc.txt
+            git commit -m "自动更新 TV 列表: $(date -u '+%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin main  # 先变基避免冲突
+            git push origin main
+          fi
