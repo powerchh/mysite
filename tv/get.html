@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TV 列表</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    pre {
+      margin: 0;
+      font-family: monospace;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+<pre id="output">加载中...</pre>
+
+<script>
+fetch('https://render-node-demo-6ijt.onrender.com/api/tvlist')
+  .then(res => res.text())
+  .then(text => {
+    // 替换 < > 符号，避免被浏览器当成 HTML 标签渲染
+    const safeText = text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    document.body.innerHTML = '<pre>' + safeText + '</pre>';
+  })
+  .catch(err => {
+    document.body.innerHTML = '<pre>请求失败: ' + err + '</pre>';
+  });
+</script>
+</body>
+</html>
