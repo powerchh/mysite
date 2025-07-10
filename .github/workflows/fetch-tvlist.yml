@@ -37,3 +37,28 @@ jobs:
             git pull --rebase origin main  # 先变基避免冲突
             git push origin main
           fi
+
+      - name: 更新 gh-pages 分支的 tvlistc.txt
+        run: |
+          # 获取最新 gh-pages 分支
+          git fetch origin gh-pages
+
+          # 用 worktree 挂载 gh-pages 分支
+          git worktree add gh-pages-dir gh-pages
+
+          # 用新的 tvlistc.txt 覆盖 gh-pages 的文件
+          cp static/tv/tvlistc.txt gh-pages-dir/tv/tvlistc.txt
+
+          # 进入 gh-pages 目录并提交
+          cd gh-pages-dir
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet --exit-code; then
+            echo "gh-pages 中 tvlist 无变化，跳过提交"
+          else
+            git add tv/tvlistc.txt
+            git commit -m "自动更新 gh-pages 中的 tvlistc.txt: $(date -u '+%Y-%m-%d %H:%M:%S')"
+            git push origin gh-pages
+          fi
+    
