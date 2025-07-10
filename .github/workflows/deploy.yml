@@ -2,6 +2,8 @@ name: Deploy Hugo site
 
 on:
   push:
+    paths:
+      - 'static/tv/**'  
     branches:
       - main
   workflow_dispatch:
