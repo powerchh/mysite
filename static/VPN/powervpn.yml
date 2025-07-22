@@ -53,349 +53,175 @@ proxies:
     skip-cert-verify: false  # 生产环境建议保持false
     udp: true
 
-  - alterId: 0
-    cipher: auto
-    name: 美國洛杉矶10GA
-    network: ws
-    port: 32103
-    server: 4da4ffcb-slx5s0-smcxr8-11kf9.losa.plebai.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 美國西雅圖
-    network: ws
-    port: 80
-    server: 62a1b6a5-slx5s0-smcxr8-11kf9.se.plebai.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 硅谷-移动优化A
-    network: ws
-    port: 8808
-    server: d537a216-slx5s0-smcxr8-11kf9.sja.plebai.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 美國洛杉磯A
-    network: ws
-    port: 5080
-    server: 9769c08d-slx5s0-smcxr8-11kf9.losa.p5pv.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 美國费利蒙
-    network: ws
-    port: 8080
-    server: c740f95f-slx5s0-smcxr8-11kf9.fremont.p5pv.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港PCCW01
-    network: ws
-    port: 80
-    server: 117ff2ad-slx5s0-smcxr8-11kf9.hkt.comefromchinatown.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: www.hgcbroadband.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港PCCW03
-    network: ws
-    port: 80
-    server: 7f543749-slx5s0-smcxr8-11kf9.hgc1.tcpbbr.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港精品
-    network: ws
-    port: 80
-    server: c8f3940b-slx5s0-smcxr8-11kf9.hkt.gotochinatown.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港HKT01
-    network: ws
-    port: 80
-    server: 0458b928-slx5s0-smcxr8-11kf9.bn.p5pv.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港HKT02
-    network: ws
-    port: 8080
-    server: e73ac91a-slx5s0-smcxr8-11kf9.wtt2.comefromchinatown.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 香港HKT03
-    network: ws
-    port: 8080
-    server: 30178a29-slx5s0-smcxr8-11kf9.wtt5.p5pv.com
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 英國
-    network: ws
-    port: 8081
-    server: 66488e1a-slx5s0-smcxr8-11kf9.uk.tcpbbr.net
-    tls: false
-    type: vmess
-    uuid: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    ws-headers:
-      Host: broadcastlv.chat.bilibili.com
-    ws-path: /
-  - alterId: 0
-    cipher: auto
-    name: 台灣
-    network: tcp
-    password: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    port: 443
-    server: ab518b72-slx5s0-smcxr8-11kf9.tw4.tcpbbr.net
-    tls: true
-    type: http
-    username: xubao0305@gmail.com
+  - name: 香港01|1x
+    type: ss
+    server: cdn.auth-tencent.com
+    port: "35005"
+    cipher: chacha20-ietf-poly1305
+    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
+  - name: 香港02|1x
+    type: ss
+    server: cdn.auth-tencent.com
+    port: "35006"
+    cipher: chacha20-ietf-poly1305
+    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
+  - name: 香港03|1x
+    type: ss
+    server: cdn.auth-tencent.com
+    port: "35007"
+    cipher: chacha20-ietf-poly1305
+    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
+  - name: 香港04|1x
+    type: ss
+    server: cdn.auth-tencent.com
+    port: "35008"
+    cipher: chacha20-ietf-poly1305
+    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 日本01|1x
     type: ss
-    server: j-p01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35009"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 日本02|1x
     type: ss
-    server: j-p02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35010"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 日本03|1x
     type: ss
-    server: j-p03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35011"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 日本04|1x
     type: ss
-    server: j-p04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35012"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 美国01|1x
     type: ss
-    server: u-s01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35013"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 美国02|1x
     type: ss
-    server: u-s02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35014"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 美国03|1x
     type: ss
-    server: u-s03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35015"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 美国04|1x
     type: ss
-    server: u-s04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35016"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 台湾01|1x
     type: ss
-    server: t-wn01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35017"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 台湾02|1x
     type: ss
-    server: t-wn02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35018"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 台湾03|1x
     type: ss
-    server: t-wn03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35019"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 台湾04|1x
     type: ss
-    server: t-wn04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35020"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 韩国01|1x
     type: ss
-    server: k-r01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35021"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 韩国02|1x
     type: ss
-    server: k-r02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35022"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 韩国03|1x
     type: ss
-    server: k-r03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35023"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 韩国04|1x
     type: ss
-    server: k-r04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35024"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 新加坡01|1x
     type: ss
-    server: s-g01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35025"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 新加坡02|1x
     type: ss
-    server: s-g02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35026"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 新加坡03|1x
     type: ss
-    server: s-g03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35027"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 新加坡04|1x
     type: ss
-    server: s-g04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35028"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 英国01|1x
     type: ss
-    server: u-k01.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35029"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 英国02|1x
     type: ss
-    server: u-k02.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35030"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 英国03|1x
     type: ss
-    server: u-k03.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35031"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
   - name: 英国04|1x
     type: ss
-    server: u-k04.love-english-edu.com
+    server: cdn.auth-tencent.com
     port: "35032"
     cipher: chacha20-ietf-poly1305
     password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - name: USA|[特殊地区及海外用户]
-    type: ss
-    server: adoredone.cc
-    port: "60006"
-    cipher: chacha20-ietf-poly1305
-    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - name: JPA||[特殊地区及海外用户]
-    type: ss
-    server: adoredone.cc
-    port: "60007"
-    cipher: chacha20-ietf-poly1305
-    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - name: SGP[特殊地区及海外用户]
-    type: ss
-    server: adoredone.cc
-    port: "60008"
-    cipher: chacha20-ietf-poly1305
-    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - name: HKT|[特殊地区及海外用户]
-    type: ss
-    server: adoredone.cc
-    port: "60009"
-    cipher: chacha20-ietf-poly1305
-    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - name: TWN|[特殊地区及海外用户]
-    type: ss
-    server: adoredone.cc
-    port: "60010"
-    cipher: chacha20-ietf-poly1305
-    password: aeaadd75-db76-4c89-8f85-068bec53e6f4
-  - alterId: 0
-    cipher: auto
-    name: ChatGPT-01
-    network: tcp
-    password: 9eb9acd0-f4e5-11ee-bbea-f23c913c8d2b
-    port: 8443
-    server: 6178f3f6-slx5s0-smcxr8-11kf9.s5.p5pv.com
-    tls: true
-    type: trojan
+
 proxy-groups:
   - name: 🚀 Proxy
     type: url-test
