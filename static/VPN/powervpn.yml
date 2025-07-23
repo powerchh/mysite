@@ -48,10 +48,13 @@ proxies:
     server: vpn.unifine.top  # 你的SNI域名
     port: 443
     password: "YourStrongPassword"  # 和服务器一致
-    alpn: ["h2", "http/1.1"]
     sni: "vpn.unifine.top"  # 必须和服务器一致
     skip-cert-verify: false  # 生产环境建议保持false
-    udp: true
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "vpn.unifine.top"
 
   - name: 香港01|1x
     type: ss
