@@ -43,7 +43,6 @@ dns:
 mixed-port: 9981
 mode: rule
 proxies:
-proxies:
   - name: "西雅图Trojan-Go节点"
     type: trojan
     server: vpn.unifine.top  # 你的SNI域名
